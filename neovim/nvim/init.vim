@@ -36,6 +36,7 @@ colorscheme onedark
 let g:lightline = {'colorscheme': 'onedark'}
 
 nmap <C-e> :NERDTreeToggle<CR>
+let NERDTreeWinSize=56
 
 " -- lsp settings
 nmap <silent> gd :LspDefinition<CR>
